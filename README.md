@@ -132,18 +132,9 @@ B = B - learning_rate * dB
 
 ## Limitations
 - Flat pixel input — spatial relationships between pixels ignored
-- Sensitive to handwriting style (European 7 vs MNIST 7)
+- Sensitive to handwriting style (European 8 vs MNIST 8)
 - No data augmentation — rotation, shift not handled
 - Vanilla gradient descent — no Adam/momentum optimization
-
----
-
-## Future Improvements
-- Implement **CNN** (Convolutional Neural Network) for spatial feature extraction
-- Add **Batch Normalization** for stable training
-- Add **Dropout** to prevent overfitting
-- Use **Mini-batch Gradient Descent** for faster convergence
-- Apply **Data Augmentation** (rotation, shift) for better real-world prediction
 
 ---
 
